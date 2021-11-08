@@ -17,10 +17,11 @@ h1 {
   z-index: 300;
 }
 
-nav ul li {
+.red-tide ul li {
   float: left;
-  width: 20%;
+  width: 32%;
   text-align: center;
+  display: block;
 }
 
 .hamburger {
