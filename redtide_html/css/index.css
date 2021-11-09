@@ -3,9 +3,13 @@
 hamburger(ハンバーガーアイコン)
 =================================== */
 
-h1 {
+/* h1 {
   text-align: center
-}
+} */
+
+/* .menu {
+  position:fixed;
+} */
 
 .login {
   position: absolute;
