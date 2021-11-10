@@ -3,13 +3,13 @@
 hamburger(ハンバーガーアイコン)
 =================================== */
 
-/* h1 {
+.p_poricy {
   text-align: center
-} */
+}
 
-/* .menu {
-  position:fixed;
-} */
+.title {
+  margin-left: 10%;
+}
 
 .login {
   position: absolute;
@@ -28,6 +28,8 @@ hamburger(ハンバーガーアイコン)
   display: block;
 }
 
+
+/* ここからハンバーガーメニュー */
 .hamburger {
   position: absolute;
   right: 20px;
@@ -81,7 +83,7 @@ sp-nav(ナビ)
   position: fixed;
   right: -100%; /*ハンバーガーがクリックされる前はWindow右側に隠す*/
   top: 0;
-  width: 70%; /* 出てくるスライドメニューの幅 */
+  width: 350px; /* 出てくるスライドメニューの幅 */
   height: 100vh;
   background-color: #fff;
   transition: all 0.5s;

@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
-  <title></title>
-</head>
-<body>
-  <script type="text/javascript" src="js/red-tide.js"></script>
-  <div id="nav-wrapper" class="nav-wrapper">
-    <div class="hamburger" id="js-hamburger">
-          <span class="hamburger__line hamburger__line--1"></span>
-          <span class="hamburger__line hamburger__line--2"></span>
-          <span class="hamburger__line hamburger__line--3"></span>
-        </div>
-        <nav class="sp-nav">
-          <ul>
-            <li>トップページへ</li>
-            <li>会員登録</li>
-            <li>ログイン</li>
-            <li>お問い合わせ</li>
-            <li>プライバシーポリシー</li>
-          </ul>
-        </nav>
-        <div class="black-bg" id="js-black-bg"></div>
-  </div>
-  <h1>お問い合わせ</h1>
-  <textarea name="comment" cols="40" rows="9" maxlength="180"></textarea>
-  <input type="submit" value="送信する">
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title></title>
+  </head>
+  
+  <body>
+  <header>    
+
+    
+    <script type="text/javascript" src="js/red-tide.js"></script>
+
+    <div id="nav-wrapper" class="nav-wrapper">
+      <div class="hamburger" id="js-hamburger">
+        <span class="hamburger__line hamburger__line--1"></span>
+        <span class="hamburger__line hamburger__line--2"></span>
+        <span class="hamburger__line hamburger__line--3"></span>
+      </div>
+      <nav class="sp-nav">
+        <ul>
+          <li><a href="index.html">トップページへ</a></li>
+          <li><a href="sgin_up.html">会員登録</a></li>
+          <li><a href="login.html">ログイン</a></li>
+          <li><a href="inquiry.html">お問い合わせ</a></li>
+          <li><a href="p_poricy.html">プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+      <div class="black-bg" id="js-black-bg"></div>
+    </div>
+
+  </header>
+  
+    <h1>お問い合わせ</h1>
+    <form action="index.html" method="get">
+      <textarea name="comment" cols="40" rows="9" maxlength="180"></textarea>
+      <input type="submit" value="送信する">
+    </form>
+  </body>
+  </html>
