@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css\login.css">
   <title></title>
 </head>
 
@@ -33,31 +33,41 @@
 </header>
 
   <div class="title"><h1>ログイン</h1></div>
+
   <div align="center">
     <table border="0">
         <form action="index.html" method="get">
-            <tr>
-                <td>
-                    <input type="text" name="user_id" placeholder="メールアドレス入力欄" size="24">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="password" name="password" placeholder="パスワード(8文字以上半角英数字のみ)" size="24">
-                </td>
-            </tr>
+
+            <!-- <div class="adress_pass"> -->
+              <tr>
+                  <td>
+                    <!-- <input type="text" name="user_id" class="adress_pass" placeholder="メールアドレス入力欄"> -->
+                    <input type="text" name="user_id" class="adress_pass" placeholder="メールアドレス入力欄" size="50">
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                    <!-- <input type="password" name="password" class="adress_pass" placeholder="パスワード(8文字以上半角英数字のみ)"> -->
+                    <input type="password" name="password" class="adress_pass" placeholder="パスワード(8文字以上半角英数字のみ)" size="50">
+                  </td>
+              </tr>
+            <!-- </div> -->
+            
             <tr>
               <td>
-                パスワードを忘れた方はこちら
+                <div class="forgot">
+                  パスワードを忘れた方はこちら
+                </div>
               </td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="submit" value="ログイン">
+                    <input type="submit" value="ログイン" class="login_button">
                 </td>
             </tr>
         </form>
     </table>
   </div>
+
 </body>
 </html>

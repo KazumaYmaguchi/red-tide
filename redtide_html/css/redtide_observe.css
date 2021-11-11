@@ -1,52 +1,18 @@
-.title {
-  margin-left: 10%;
+.menu {
+  position: fixed;
 }
 
-/* トップページの文字の位置 */
-.toppage{
-  /* left: 100px; */
-  margin-left: 60px;
-}
 
-.account {
-  position: absolute;
-  right: 80px;
-  top: 20px;
-  width: 150px;
-  height: 40px;
-  cursor: pointer;
-  z-index: 300;
-}
-.red-tide ul li {
-  float: left;
-  width: 32%;
-  text-align: center;
-  display: block;
-}
 
-/* .inquiry {
-  margin-left: 5%;
-}
-
-textarea.inquiry-form {
-  width: 90%;
-  height: 400px;
-  margin-left: 5%;
-}
-
-input.send {
-  bottom: 50px;
-  margin-left: 80%;
-  position: relative; 
-  top: 20px;
+/* header{
+  position: fixed; ウィンドウを基準に画面に固定
 } */
-
 /* 
 hamburger(ハンバーガーアイコン)
 =================================== */
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   right: 20px;
   top: 20px;
   width: 50px;
