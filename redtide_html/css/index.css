@@ -8,17 +8,18 @@
   margin-left: 60px;
 }
 
-/* .box1 {
+.box {
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;
   border: solid 3px #000000;
   width:240px;
 }
-.box1 h2 {
+.box h2 {
   margin: 0; 
   padding: 0;
-} */
+}
+
 
 h2 {
   margin-left: 5%;
