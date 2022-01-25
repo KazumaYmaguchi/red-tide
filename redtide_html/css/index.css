@@ -13,20 +13,11 @@
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
-    border: solid 3px #000000;
+    border: solid 3px #6699FF;
     width:240px;
     margin-left: 10%;
     /* text-align: center; */
   }
-
-  /* .box {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #000000;
-    width:240px;
-    margin-left: 10%;
-  } */
 
   .box h2 {
     margin: 0; 
@@ -73,7 +64,21 @@
     text-align: center;
     position:relative;
     top: 100px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #6699FF;
   }
+
+  /* .photo .box2 {
+
+  } */
+
+  /* .box h2 {
+    margin: 0; 
+    padding: 0;
+  } */
+
   
   h3 {
     text-align: center;
