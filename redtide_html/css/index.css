@@ -9,6 +9,10 @@
     margin-left: 10px;
   }
 
+  .toppage h1 {
+    font-family: "Sawarabi+Mincho";
+  }
+
   /* 「現在発生している赤潮の枠」 */
   .box {
     padding: 0.5em 1em;
