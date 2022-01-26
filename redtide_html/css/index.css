@@ -9,16 +9,18 @@
     margin-left: 10px;
   }
 
+  /* 「現在発生している赤潮の枠」 */
   .box {
     padding: 0.5em 1em;
     margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #6699FF;
-    width:240px;
+    font-weight: bold; /* ? */
+    border: solid 3px #6699FF; /* ボーダーの色 */
+    width:240px; /*　枠の横幅 */
     margin-left: 10%;
     /* text-align: center; */
   }
 
+  /* その枠の位置 */
   .box h2 {
     margin: 0; 
     padding: 0;
@@ -30,9 +32,11 @@
     margin-top: 50px
   }
 
-  @media screen and (min-width: 767px) {
+  /* 会員登録とログインボタン */
+  @media screen and (min-width: 767px) { /* PCの場合 */
     .account {
       position: absolute;
+      /* ボタンの位置 */
       right: 80px;
       top: 30px;
       /* width: 150px; */
@@ -42,9 +46,10 @@
     }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767px) { /* タブレットの場合 */
     .account {
       position: absolute;
+      /* ボタンの位置 */
       right: 80px;
       top: 30px;
       /* width: 150px; */
@@ -54,7 +59,7 @@
     }
   }
 
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 479px) { /* スマホの場合 */
     .account {
       display:none;
     }
@@ -62,12 +67,14 @@
 
   .photo {
     text-align: center;
-    position:relative;
-    top: 100px;
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #6699FF;
+    /* position:relative; */
+    /* top: 100px; */
+    /* padding: 0.5em 1em; */
+    /* margin: 2em 0; */
+    /* font-weight: bold; */
+    border: solid 3px #6699FF; /*枠の色*/
+    margin: 0px 10%; /* 枠の大きさ */
+    padding: 80px 15px; /* 枠の大きさ */
   }
 
   /* .photo .box2 {
@@ -91,19 +98,26 @@
       text-align: center;
       display: block;
       position:relative;
-      top: 180px;
+      top: 0px;
+      margin-bottom: 10px;
     }
   }
 
   @media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+
+    /* .red-tide {
+      text-align: center;
+    } */
+
     .red-tide ul li {
       /* float: left; */
       /* width: 32%; */
       text-align: center;
-      display: block;
-      position:relative;
-      margin: 10px;
-      top: 130px;
+      /* display: block; */
+      /* position:relative; */
+      margin-top: 10px;
+      margin-right: 10%;
+      top: 10px;
     }
   }
   
@@ -203,4 +217,3 @@
     color: #fff;
     background: #f56500;
   }
-^

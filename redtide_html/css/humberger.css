@@ -7,8 +7,8 @@ header {
   width: 100%;
   height: 50px;
   margin-top: 20px;
-  /* top: 100px; */
-  /* width: 100px; */
+  /* position: fixed;  */
+  /* ウィンドウを基準に画面に固定 */
 }
 
 .hamburger {
